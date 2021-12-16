@@ -13,4 +13,5 @@ int itc_positive_list(const vector <int> &mass)
     }
     return k;
     }
+    return 0;
 }

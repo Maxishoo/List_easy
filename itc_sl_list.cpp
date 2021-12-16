@@ -21,4 +21,5 @@ int itc_sl_list(const vector <int> &mass)
     }
     return k;
     }
+    return 0;
 }

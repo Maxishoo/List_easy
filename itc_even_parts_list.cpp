@@ -1,7 +1,7 @@
 #include "easy_list.h"
 void itc_even_parts_list(const vector <int> &mass, vector <int> &mass2)
 {
-    if(mass.size()!=0 || mass2.size()!=0)
+    if(mass.size()!=0)
     {
     for(int i=0;i<mass.size();i++)
     {
