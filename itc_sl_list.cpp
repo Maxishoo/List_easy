@@ -1,6 +1,8 @@
 #include "easy_list.h"
 int itc_sl_list(const vector <int> &mass)
 {
+    if(mass.size()!=0)
+    {
     int k=0;
     if(mass.size()==1)
     {
@@ -18,4 +20,5 @@ int itc_sl_list(const vector <int> &mass)
         }
     }
     return k;
+    }
 }
