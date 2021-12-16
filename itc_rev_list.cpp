@@ -1,9 +1,9 @@
 #include "easy_list.h"
 void itc_rev_list(vector <int> &mass)
 {
-    if(mass.size()!=0)
+    if(mass.size()!=0 && mass.size()!=1)
     {
-   int swappi;
+    int swappi;
    for(int i=0;i<mass.size()/2;i++)
    {
        swappi=mass[i];

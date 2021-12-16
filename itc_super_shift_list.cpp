@@ -14,14 +14,14 @@ void itc_even_index_list(const vector <int> &mass, vector <int> &mass2)
 }
 void itc_rshift_list(vector <int> &mass)
 {
-   int swappi;
-   int last=mass[mass.size()-1];
    int l=mass.size();
    if(l!=0 && l!=1)
    {
+       int swappi;
+       int last=mass[mass.size()-1];
    for(int i=0;i<mass.size()-1;i++)
    {
-       swappi=mass[l-i-1];
+       //swappi=mass[l-i-1];
        mass[l-i-1]=mass[l-i-2];
 
    }
